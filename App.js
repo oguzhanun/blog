@@ -15,7 +15,9 @@ const navigator = createStackNavigator({
   Show : ShowScreen,
   Create : CreateScreen,
   Edit : EditScreen
+
 },
+
   {
     initialRouteName :"Index",
     defaultNavigationOptions : {
